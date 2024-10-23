@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Contador',),
+      home: const MyHomePage(title: 'Contador incremento e decremento',),
     );
   }
 }
