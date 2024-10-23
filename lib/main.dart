@@ -81,21 +81,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Expanded(
               flex: 1,
-              child: SizedBox(
-                height: 50,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    ElevatedButton(
-                        onPressed: _decrementCounter,
-                        child: Icon(Icons.exposure_minus_1)
-                    ),
-                    ElevatedButton(
-                        onPressed: _incrementCounter,
-                        child: Icon(Icons.plus_one)
-                    ),
-                  ],
-                ),
               ),
             ),
           ],
